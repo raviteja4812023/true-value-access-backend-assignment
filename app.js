@@ -3,7 +3,7 @@ const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
 const path = require("path");
 
-const databasePath = path.join(__dirname, ".db");
+const databasePath = path.join(__dirname, "userData.db");
 
 const app = express();
 
