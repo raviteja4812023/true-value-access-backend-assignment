@@ -1,1 +1,13 @@
-
+SQLite format 3
+CREATE TABLE cricket_team (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  first_name TEXT,
+  last_name TEXT,
+  company_name TEXT,
+  city TEXT,
+  state TEXT,
+  zip INT,
+  email TEXT,
+  web TEXT,
+  age INT
+)
